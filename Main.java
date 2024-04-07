@@ -38,6 +38,7 @@ public class Main {
                 System.out.println("Obwód koła: " + circle.calculatePerimeter());
                 System.out.println("Pole powierzchni koła: " + circle.getArea());
                 System.out.println(" ");
+                System.out.println("Właściwości kola:");
                 System.out.println("Środek koła: (" + coloredCircle.getCenter().getX() + ", " + coloredCircle.getCenter().getY() + ")");
                 System.out.println("Promień koła: " + coloredCircle.getRadius());
                 System.out.println("Kolor koła: " + coloredCircle.getColor());
