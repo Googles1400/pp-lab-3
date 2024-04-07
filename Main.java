@@ -41,13 +41,17 @@ public class Main {
                 System.out.println("Obwód koła: " + circle.calculatePerimeter());
                 System.out.println("Pole powierzchni koła: " + circle.getArea());
                 System.out.println(" ");
+                System.out.println("Właściwości kola:");
                 System.out.println("Środek koła: (" + coloredCircle.getCenter().getX() + ", " + coloredCircle.getCenter().getY() + ")");
                 System.out.println("Promień koła: " + coloredCircle.getRadius());
                 System.out.println("Kolor koła: " + coloredCircle.getColor());
                 System.out.println("Obwód koła: " + coloredCircle.calculatePerimeter());
                 System.out.println("Pole powierzchni koła: " + coloredCircle.getArea());
                 System.out.println(" ");
-                System.out.println("Pole prostokąta: " + rectangle.calculateArea());
-                System.out.println("Obwód prostokąta: " + rectangle.calculatePerimeter());
+                System.out.println("Właściwości prostokąta:");
+                System.out.println("Długość: " + rectangle.getLength());
+                System.out.println("Szerokość: " + rectangle.getWidth());
+                System.out.println("Pole: " + rectangle.calculateArea());
+                System.out.println("Obwód: " + rectangle.calculatePerimeter());
             }
         }
